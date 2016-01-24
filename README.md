@@ -1,11 +1,11 @@
 # Form-Validator
 
-**A bunch of form input validation functions I made because I thought they'd be useful :)**
+**A bunch of form input validation functions we made because we thought they'd be useful :)**
 
 
-The form I use from the demo is from the [forms section](http://jaypatel.co/sideSites/wc/#frms/) my [Web-Components Page](http://jaypatel.co/sideSites/wc/). You can also visit the [GitHub](https://github.com/sum-kcid/Web-Components) repo for the Web-Components.
+The form we use from the demo is from the [forms section](http://jaypatel.co/sideSites/wc/#frms/) (Jay Patel)[https://github.com/sum-kcid]'s [Web-Components Page](http://jaypatel.co/sideSites/wc/). You can also visit the [GitHub](https://github.com/sum-kcid/Web-Components) repo for the Web-Components.
 
-*You may find the functions in `DEMO/ValidationResultHandlers.js` useful if you plan on using the forms from my Web-Components page*
+*You may find the functions in `DEMO/ValidationResultHandlers.js` useful if you plan on using the forms from (Jay Patel)[https://github.com/sum-kcid]'s Web-Components page*
 
 
 
@@ -17,7 +17,7 @@ The form I use from the demo is from the [forms section](http://jaypatel.co/side
 * `validators.min.js` contains all the validator functions compressed into one file
 * You can find individually compressed validator functions in the `Individually Compressed JS` folder
 * And of course, the uncompresssed validator functions are in the `Uncompressed JS` folder
-* `DEMO/view.js`, `DEMO/view.html` and `DEMO/validationResultHandlers.js` - *(I really like my camelCase haha)* - are the files you're going to want to check for the demo
+* `DEMO/view.js`, `DEMO/view.html` and `DEMO/validationResultHandlers.js` - are the files you're going to want to check for the demo
 
 
 
@@ -53,7 +53,7 @@ The `isSuccess` property of this object will let you determine if validation was
 
 
 ####charCounter(txt, min, max, ignSpace, ignLineBrs, toTrim) | charCounter.js
-*In the DEMO I use this for validation a textarea containing a description*
+*In the DEMO we use this for validation a textarea containing a description*
 
 * **'txt': string** is the txt to count on
 * **'min, max': integer** are the minimum and maximum limits of the text
@@ -95,7 +95,7 @@ For validating file objects
 * * **'fileType': string OR array**
   * Pass falsey value for any file type
   * If you are passing a string, you are limited to the following presets `'image', 'text', 'pdf'`
-    * I just validate against the most common image extensions or text file extensions or .pdf extension depending on which string you've passed
+    * we just validate against the most common image extensions or text file extensions or .pdf extension depending on which string you've passed
   * If you would like to enter a list of **custom file extensions** to validate against, pass an array of strings with the custom extensions
     * You can also pass 'image', 'text' and/or 'pdf' in the array if you would like to test against these presets as well
     * This will let you combine presets with each other or with custom extensions as well
@@ -165,7 +165,7 @@ This lets you customisably validate an entered password
 
 
 ####stringMatcher(strArr) | password.js
-Pass an array of strings and this just checks if all the strings match each other. In the `DEMO`, I use this for the *password confirmation* input.
+Pass an array of strings and this just checks if all the strings match each other. In the `DEMO`, we use this for the *password confirmation* input.
 **This returns a boolean. Not the `isSuccess` object**
 
 *Make sure you pass at least two strings in the function.*
@@ -190,7 +190,7 @@ This function does not give any error details (no `err` property in the object r
 
 
 ##Feedback
-Let me know if I've made any oversights while validating, mistakes in my code or if you have improvement ideas. Constructive feedback is always welcome :)
+Let me know if we've made any oversights while validating, mistakes in the code or if you have improvement ideas. Constructive feedback is always welcome :)
 
 
 ##License
