@@ -2,6 +2,7 @@
 
 **A bunch of form input validation functions we made because we thought they'd be useful :)**
 
+> jQuery plugin for this coming soon!
 
 The form we use from the demo is from the [forms section](http://jaypatel.co/sideSites/wc/#frms/) [Jay Patel](https://github.com/sum-kcid)'s [Web-Components Page](http://jaypatel.co/sideSites/wc/). You can also visit the [GitHub](https://github.com/sum-kcid/Web-Components) repo for the Web-Components.
 
