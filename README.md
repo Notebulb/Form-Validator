@@ -54,7 +54,7 @@ The `isSuccess` property of this object will let you determine if validation was
 
 
 ####charCounter(txt, min, max, ignSpace, ignLineBrs, toTrim) | charCounter.js
-*In the DEMO we use this for validation a textarea containing a description*
+*In the DEMO we use this for validating a textarea containing a description*
 
 * **'txt': string** is the txt to count on
 * **'min, max': integer** are the minimum and maximum limits of the text
