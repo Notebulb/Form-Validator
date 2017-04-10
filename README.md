@@ -13,7 +13,7 @@ The form we use from the demo is from the [forms section](http://jaypatel.co/sid
 
 
 
-##The Files
+## The Files
 
 * `validators.min.js` contains all the validator functions compressed into one file
 * You can find individually compressed validator functions in the `Individually Compressed JS` folder
@@ -25,7 +25,7 @@ The form we use from the demo is from the [forms section](http://jaypatel.co/sid
 
 
 
-##The Validator Functions
+## The Validator Functions
 
 **All functions return objects, except stringMatcher(...).**
 
@@ -53,7 +53,7 @@ The `isSuccess` property of this object will let you determine if validation was
 
 
 
-####charCounter(txt, min, max, ignSpace, ignLineBrs, toTrim) | charCounter.js
+#### charCounter(txt, min, max, ignSpace, ignLineBrs, toTrim) | charCounter.js
 *In the DEMO we use this for validating a textarea containing a description*
 
 * **'txt': string** is the txt to count on
@@ -72,7 +72,7 @@ The `isSuccess` property of this object will let you determine if validation was
 
 
 
-####emailValidator(email) | email.js
+#### emailValidator(email) | email.js
 *Note this sort of validation is just for aesthetics
   *if you would like to actually validate it, you can do it through services like http://www.mailgun.com/email-validation*
 * **'email': string** is the email string to be validated
@@ -84,7 +84,7 @@ This function does not give any error details (no `err` property in the object r
 
 
 
-####fileValidator(file, minSize, maxSize, fileType) | file.js
+#### fileValidator(file, minSize, maxSize, fileType) | file.js
 
 For validating file objects
 
@@ -114,7 +114,7 @@ For validating file objects
 
 
 
-####fullNameValidator(fullName) | name.js
+#### fullNameValidator(fullName) | name.js
 **It's often good to not check the name much at all**, as it's tough to make assumptions but this very leniently tests for names and makes sure there is *more than one word entered* -- no international support (with unicode)
 * **'fullName': string** the string of the full name to be tested
 
@@ -125,7 +125,7 @@ This function does not give any error details (no `err` property in the object r
 
 
 
-####firstOrLastNameValidator(input) | name.js
+#### firstOrLastNameValidator(input) | name.js
 **It's often good to not check the name much at all**, as it's tough to make assumptions but this very leniently tests for names and makes sure there *is only one word entered* -- no international support (with unicode)
 * **'input': string** the string of the first or last name to be tested
 
@@ -139,7 +139,7 @@ This function does not give any error details (no `err` property in the object r
 
 
 
-####passwordValidator(password, min, max, limSpChars, requirements) | password.js
+#### passwordValidator(password, min, max, limSpChars, requirements) | password.js
 This lets you customisably validate an entered password
 
 * **'password': string** is the password to validate on
@@ -165,7 +165,7 @@ This lets you customisably validate an entered password
 
 
 
-####stringMatcher(strArr) | password.js
+#### stringMatcher(strArr) | password.js
 Pass an array of strings and this just checks if all the strings match each other. In the `DEMO`, we use this for the *password confirmation* input.
 **This returns a boolean. Not the `isSuccess` object**
 
@@ -178,7 +178,7 @@ This function does not give any error details (no `err` property in the object r
 
 
 
-####urlValidator(url) | url.js
+#### urlValidator(url) | url.js
 A url validator
 * **'url': string** is the url to validate on
 
@@ -190,9 +190,9 @@ This function does not give any error details (no `err` property in the object r
 
 
 
-##Feedback
+## Feedback
 Let me know if we've made any oversights while validating, mistakes in the code or if you have improvement ideas. Constructive feedback is always welcome :)
 
 
-##License
+## License
 It's MIT. View [here](https://github.com/sum-kcid/Form-Validator/blob/master/LICENSE) :)
